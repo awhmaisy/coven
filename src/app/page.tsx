@@ -1,3 +1,5 @@
+
+
 import Image from "next/image";
 import Scramble from "./components/scramble";
 
@@ -31,15 +33,8 @@ export default function Home() {
           {/* Photo Gallery */}
           <div className="mt-8 space-y-0">
             <Image
-              src="/image 35.jpg"
+              src="/pog.png"
               alt="Gallery Image 35"
-              width={150}
-              height={150}
-              className="object-cover w-full"
-            />
-            <Image
-              src="/image 36.jpg"
-              alt="Gallery Image 36"
               width={150}
               height={150}
               className="object-cover w-full"
@@ -54,9 +49,9 @@ export default function Home() {
         <div className="space-y-4 text-[10px] md:text-xs text-justify">
           <h2 className="font-bold">currently</h2>
             <p>i<br/>building a DEX<br/>hahahhahah yeah</p>
-            <p>ii<br/>accelerating U.S. ISR LOEs<br/>and building force-multipliers at PM</p>
+            <p>ii<br/>accelerating U.S. ISR LOEs and<br/>building force-multipliers at [shh]</p>
             <p>iii<br/>investing in defense and<br/>cyber at [shh]</p>
-          <br />          <br />          <br />          <br />
+          <br />          <br />         
           <h2 className="font-bold mt-4">do you seek to find?</h2>
           <p>
             <a href="https://awhmaisy.substack.com" className="hover:italic">i write</a>
