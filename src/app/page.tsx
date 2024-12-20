@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Scramble from "./components/scramble";
-import Find from "./components/find";
 
 export default function Home() {
   return (
