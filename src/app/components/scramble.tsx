@@ -5,9 +5,10 @@ const Scramble = () => {
 
   // hook returns a ref and replay function
   const { ref, replay } = useScramble({ 
-    speed: 0.5,
-    overdrive: 0,
-    seed: 1,
+    speed: 0.25,
+    overdrive: false,
+    seed: 0.5,
+    tick: 1,
     text: "i seek the courage to discover and the willingness to affirm those discoveries. i have elected to perceive the World through a lens of radical acceptance and conscious serenity. i have decided to embody my pleasures in craft and creation." 
   });
 
